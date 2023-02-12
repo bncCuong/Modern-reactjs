@@ -2,9 +2,9 @@ import styles from '../style';
 import { stats } from '../constants';
 
 const Stats = () => (
-    <div className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}>
+    <div className={`${styles.flexStart} flex-col flex-wrap md:flex-row  sm:mb-20 mb-6`}>
         {stats.map((item) => (
-            <div key={item.id} className={`flex flex-1 gap-4 items-center justify-start m-3 flex-row `}>
+            <div key={item.id} className={`flex flex-1 gap-4 items-center justify-start  flex-row `}>
                 <span className="text-white font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px]">
                     {item.value}
                 </span>

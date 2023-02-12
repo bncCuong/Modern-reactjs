@@ -3,7 +3,7 @@ import { navLinks } from '../constants/index';
 import { close, menu, logo } from '../assets';
 
 const Navbar = () => {
-    const [toogleMenu, setToogleMenu] = useState(true);
+    const [toogleMenu, setToogleMenu] = useState(false);
     return (
         <nav className="w-full flex py-6 justify-between items-center navbar">
             <img alt="logo" src={logo} className="w-[124px] h-[32px]" />
@@ -25,7 +25,7 @@ const Navbar = () => {
             <div className="sm:hidden flex flex-1 justify-end items-center">
                 <img
                     alt="menu"
-                    src={toogleMenu ? menu : close}
+                    src={!toogleMenu ? menu : close}
                     className="w-6 h-6 object-contain"
                     onClick={() => setToogleMenu((prev) => !prev)}
                 />

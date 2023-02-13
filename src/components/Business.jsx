@@ -5,7 +5,7 @@ import { features } from '../constants';
 
 const Business = () => {
     return (
-        <div className={`${styles.flexStart} md:flex-row flex-col ${styles.paddingY} `}>
+        <div className={`${styles.flexStart} md:flex-row flex-col ${styles.paddingY}  `}>
             <div className="flex flex-col flex-1 mt-5 ">
                 <h1 className="text-white font-poppins font-semibold md:text[35px] text-[48px] md:leading-[76px] leading-[64px]">
                     You do the business, <br className="sm:block hidden" /> we'll handle the money.

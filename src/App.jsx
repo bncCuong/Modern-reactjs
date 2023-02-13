@@ -28,14 +28,15 @@ const App = () => {
                 </div>
             </div>
             <div className={`${styles.flexStart} ${styles.paddingX} bg-primary`}>
-                <div className={`${styles.boxWidth}`}>
+                <div className={`${styles.boxWidth} border-b-[1px] border-white/20 mb-20`}>
                     <Stats />
                     <Businees />
                     <Billing />
                     <CardDeal />
                     <FeedbackCard />
-                    {/* <Clients /> <CTA />  <Footer />
-                    <Stats /> <Testimonials /> */}
+                    <Clients />
+                    <Footer />
+                    <p className="text-white">Copyright @ Figma. All Rights Reserved.</p>
                 </div>
             </div>
         </div>

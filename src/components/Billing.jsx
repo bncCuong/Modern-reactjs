@@ -7,7 +7,7 @@ const Billing = () => {
             <div className="flex flex-1">
                 <img src={bill} alt="bill" className="w-[80%]" />
             </div>
-            <div className={` flex-col flex-1 mt-14 max-w-[500px]`}>
+            <div className={` flex-col flex-1 mt-14 max-w-[500px] mr-20`}>
                 <h1 className="font-poppins text-[48px] leading-[75px] font-semibold text-white ">
                     Easily control your billing & invoicing.
                 </h1>
